@@ -14,7 +14,11 @@
 
 - DOCKER_PASSWORD：登录密码
 
-2. 修改 .gitlab-ci.yml 中的部分细节，如 node 的版本等
+2. 修改 .gitlab-ci.yml 中的部分细节，如
+
+- node 的版本
+
+- 发布测试的编译脚本
 
 3. 给项目打 tag 即可进行相应的发布流程
 
